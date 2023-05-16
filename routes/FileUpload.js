@@ -1,6 +1,5 @@
 const express = require("express");
 const route = express.Router();
-// imageUpload, videoUpload, imageReducerUpload,
 const { localFileUpload, imageUpload, videoUpload, imageReducerUpload} = require("../controller/fileUpload");
 
 
